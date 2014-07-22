@@ -8,7 +8,9 @@ To use just specify the secrets in the [stack's custom JSON](http://docs.aws.ama
     {
       "secrets": {
         "app_shortname": {
-          "my_secret": "my_secret_value"
+          "production": {
+            "my_secret": "my_secret_value"
+          }
         }
       },
       
