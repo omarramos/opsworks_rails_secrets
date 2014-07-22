@@ -1,3 +1,4 @@
+name "opsworks_rails_secrets"
 maintainer "Omar Ramos"
 description "Writes a config/secrets.yml file with values injected via your custom JSON' deploy directories."
 version "0.1"
