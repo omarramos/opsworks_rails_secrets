@@ -1,2 +1,3 @@
-name 'opsworks_rails_secrets'
-version '0.1.0'
+name          "opsworks_rails_secrets"
+description   "Manage Rails 'secrets' file"
+version       "1.0.0"
