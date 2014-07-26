@@ -9,11 +9,15 @@ To use just specify the secrets in the [stack's custom JSON](http://docs.aws.ama
       "secrets": {
         "app_shortname": {
           "production": {
-            "my_secret": "my_secret_value"
+            "my_secret": "my_secret_value",
+            "nested": {
+              "value1": "1",
+              "value2": "2"
+            }
           }
         }
       },
-      
+
       "deploy": {
         "app_shortname": {
           "symlink_before_migrate": {
